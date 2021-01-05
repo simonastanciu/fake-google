@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:gray;
+}
+
+.sign-in {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 10px;
+}
+
+.sign-in:hover{
+    color: white;
+}
+
+nav {
+    margin: 25px 40px;
+    text-align: right;
+}
+
+/*body*/
+#container {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: 80px auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.google-logo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.google-logo img {
+    width: 300px;
+}
+
+.search-bar {
+    width: 600px;
+    height: 25px;
+    margin: 20px 0 40px 0;
+    padding: 10px;
+    border-radius: 40px;
+    border-color: #dfe1e5;
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 10px 1px lightgray;
+}
+
+.microphone {
+    height: 30px;
+    width: 20px;
+}
+
+.microphone img { 
+    height: 25px;
+    width: auto;
+    position: relative;
+    right: 55px;
+    top: 8px;
+}
+
+.google-search, .feeling-unlucky {
+    border: transparent;
+    font-size: 16px;
+    background-color:#f8f9fa;
+    margin: 0 10px;
+    padding: 12px;
+}
+
+.google-search:hover, .feeling-unlucky:hover {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px lightgray;
+    text-decoration: none;
+}
+
+p, .language {
+    font-size: 16px;
+    text-align: center;
+    margin: 35px 0;
+    padding: 10px;
+}
+
+.language {
+    color: rgb(100, 100, 223)
+}
+
+.language:hover {
+    text-decoration: underline;
+    color: rgb(100, 100, 223)  
+}
+
+.top-footer {
+    padding: 20px 0 20px 40px;
+    border: 1px solid lightgray;
+    line-height: 5px;
+}
+
+.top-footer a {
+    font-size: 15px;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer { 
+    line-height: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgb(241, 240, 240);
+}
+
+.left-footer a, .right-footer a {
+    color: gray;
+    font-size: 15px;
+}
+
+.left-footer {
+    float: left;
+}
+
+.right-footer {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
