@@ -7,6 +7,7 @@
         <meta name="author" content="simona stanciu">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css"  href="resources/main.css">
+        <link rel="stylesheet" href="bundles/font-awesome/css/all.css">
     </head>
     <body>
         <div class="main-body">
@@ -23,17 +24,16 @@
                 </div>
 
                 <form>
-                    <input class="search-bar" type="text" title="Search">
-                    <span class="microphone">
-                        <a href=""><img src="assets/microphone-logo.png"></a>
-                    </span>
-                </form>
-
-                <div>
-                    <!-- ca si elemente ar trebui sa faca parte din form, dar vorbim mai multe maine despre asta -->
+                    <div class="search-bar-container">
+                        <i class="fas fa-search"></i>
+                        <input class="search-bar" type="text" title="Search" placeholder="Search Google or type URL">
+                        <span class="microphone">
+                            <a href=""><img src="assets/microphone-logo.png"></a>
+                        </span>
+                    </div>
                     <button class="google-search">Google Search</button>
                     <button class="feeling-unlucky">Feeling Unlucky</button>
-                </div>
+                </form>
 
                 <p>Google.com offered in<a href="" class="language">Romana</a><a href="" class="language">magyar</a><a href="" class="language">Italian </a></p>
             </div>
